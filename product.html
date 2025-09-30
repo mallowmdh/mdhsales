@@ -33,13 +33,23 @@
 
   <!-- Product Info -->
   <div>
-    <h2 class="text-3xl font-bold mb-4">Product Title</h2>
-    <p class="text-gray-700 mb-4">This is a placeholder description. Replace with product details.</p>
+    <h2 class="text-3xl font-bold mb-4">Table Runner</h2>
+    <p class="text-gray-700 mb-4">Handmade table runners available in two sizes and 40 colors. Replace this description with your product details.</p>
+
+    <!-- Size Selector -->
+    <label for="size" class="block font-medium mb-2">Choose Size:</label>
+    <select id="size" class="border rounded-lg p-2 w-full mb-4">
+      <option value="72">72 inch</option>
+      <option value="108">108 inch</option>
+    </select>
+
+    <!-- Color Selector -->
     <label for="color" class="block font-medium mb-2">Choose Color:</label>
-    <select id="color" class="border rounded-lg p-2 w-full">
+    <select id="color" class="border rounded-lg p-2 w-full mb-4">
       <option>Color 1</option>
       <option>Color 2</option>
       <option>Color 3</option>
+      <!-- add up to 40 colors -->
     </select>
   </div>
 </section>
