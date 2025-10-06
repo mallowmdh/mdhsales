@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Fair Products</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg"/>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" class="flex items-center gap-2 group"><img src="images/logo-mdh.svg" alt="MDH logo" class="aspect-square h-8 h-auto object-cover rounded-lg w-8 w-full"><span class="text-2xl font-bold text-indigo-600 group-hover:text-indigo-700">MDH</span></a>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-indigo-600">Home</a>
+        <a href="napkins.html" class="hover:text-indigo-600">Napkins</a>
+        <a href="runners.html" class="hover:text-indigo-600">Runners</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-indigo-100 py-16 text-center">
+    <h2 class="text-4xl font-extrabold text-indigo-700">Handmade Home Textiles</h2>
+    <p class="mt-4 text-lg text-gray-700">Explore our premium napkins and table runners in 40 unique colors.</p>
+  </section>
+
+  <!-- Product Cards -->
+  <section class="max-w-6xl mx-auto py-16 px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
+    <a href="napkins.html" class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+      <img src="images/napkins.jpg" alt="Napkins" class="aspect-square h-64 h-auto object-cover rounded-lg w-full">
+      <div class="p-6">
+        <h3 class="text-2xl font-bold mb-2">Napkins (Set of 6)</h3>
+      </div>
+    </a>
+
+    <a href="runners.html" class="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden">
+      <img src="images/runners.jpg" alt="Table Runners" class="aspect-square h-64 h-auto object-cover rounded-lg w-full">
+      <div class="p-6">
+        <h3 class="text-2xl font-bold mb-2">Table Runners</h3>
+      </div>
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6 text-center text-gray-600">
+    <p>&copy; 2025 MDH Products. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
